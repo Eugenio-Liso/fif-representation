@@ -52,7 +52,7 @@ public class FilterRdfWriter {
     /**
      * Write a RDF Document whose type is specified by the RDFType variable. <br>
      * The Filter which will be decomposed and the istance of the Abstract Class
-     * Writer have to be istantiated.
+     * Writer have to be istantiated (not null).
      * <p>
      * If the variable type is null, the RDF Document will be written with the
      * default RDF/XML type.

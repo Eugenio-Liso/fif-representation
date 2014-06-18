@@ -25,7 +25,7 @@ public class Utility {
 
     /**
      * Creates a Resource name which will be used by an object of the Model
-     * class.
+     * class. The input object cannot be null.
      * 
      * @param obj
      *            The object whereof create a Resource name
@@ -33,12 +33,15 @@ public class Utility {
      */
     public static String createResourceName(Object obj) {
 
+	assert obj != null : "L'oggetto di cui si vuole ottenere il nome non può essere null.";
 	return CONSTANTS.RESOURCE_URI + obj.getClass().getSimpleName() + "_"
 		+ Integer.toHexString(obj.hashCode());
     }
 
     /**
-     * Initialize an object of the URI class.
+     * Initialize an object of the URI class from a String (which will be parsed
+     * to make sure it conforms the URI standards). The string to be parsed
+     * cannot be null.
      *
      * @param s
      *            The String from which create an object of the URI class
@@ -48,7 +51,7 @@ public class Utility {
      * @see URI
      */
     public static URI initializeUri(String s) throws URISyntaxException {
-
+	assert s != null : "La stringa da parserizzare come URI non può essere null.";
 	// questa istruzione necessita del throws URISyntaxException
 	URI uri = new URI(s);
 	return uri;
@@ -56,7 +59,8 @@ public class Utility {
     }
 
     /**
-     * Initialize a Resource with the specified URI in a Model object.
+     * Initialize a Resource with the specified URI in a Model object. The model
+     * and the URI cannot be null.
      * 
      * @param model
      *            The model object in which create a Resource
@@ -66,6 +70,8 @@ public class Utility {
      * @return The object of type Resource created
      */
     public static Resource initializeResource(Model model, URI uri) {
+	assert model != null : "Il modello (grafo) non può essere null.";
+	assert uri != null : "L'URI da inserire nel modello non può essere null.";
 	// creazione risorsa
 	Resource filterResource = model.createResource(uri.toString());
 
