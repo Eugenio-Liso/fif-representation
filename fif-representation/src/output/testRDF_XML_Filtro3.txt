@@ -7,30 +7,30 @@
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="A0">
-    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.6</fuzzy-owl:hasMembershipValue>
-    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1984</fuzzy-owl:hasElement>
+    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.2</fuzzy-owl:hasMembershipValue>
+    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1980</fuzzy-owl:hasElement>
   </rdf:Description>
   <rdf:Description rdf:nodeID="A1">
-    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4</fuzzy-owl:hasMembershipValue>
-    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1983</fuzzy-owl:hasElement>
+    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.2</fuzzy-owl:hasMembershipValue>
+    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1981</fuzzy-owl:hasElement>
   </rdf:Description>
   <rdf:Description rdf:nodeID="A2">
     <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.3</fuzzy-owl:hasMembershipValue>
     <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1982</fuzzy-owl:hasElement>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A3">
-    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.2</fuzzy-owl:hasMembershipValue>
-    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1981</fuzzy-owl:hasElement>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A4">
-    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.2</fuzzy-owl:hasMembershipValue>
-    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1980</fuzzy-owl:hasElement>
   </rdf:Description>
   <rdf:Description rdf:about="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/SequenceFilter_6302bbb1">
     <rdf:_2 rdf:resource="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/DescriptionBasedFilter_5c6648b0"/>
     <rdf:_1 rdf:resource="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/DescriptionBasedFilter_31304f14"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
     <rdf:type rdf:resource="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/filter"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4</fuzzy-owl:hasMembershipValue>
+    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1983</fuzzy-owl:hasElement>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.6</fuzzy-owl:hasMembershipValue>
+    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1984</fuzzy-owl:hasElement>
   </rdf:Description>
   <rdf:Description rdf:about="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/Metadata_6f1de4c7">
     <fuzzy-owl:hasFuzzySet rdf:resource="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/FuzzySet_459e9125"/>
@@ -43,11 +43,11 @@
     <fuzzy-owl:hasAttribute rdf:resource="string:genere"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/FuzzySet_459e9125">
-    <rdf:_5 rdf:nodeID="A4"/>
-    <rdf:_4 rdf:nodeID="A3"/>
+    <rdf:_5 rdf:nodeID="A0"/>
+    <rdf:_4 rdf:nodeID="A1"/>
     <rdf:_3 rdf:nodeID="A2"/>
-    <rdf:_2 rdf:nodeID="A1"/>
-    <rdf:_1 rdf:nodeID="A0"/>
+    <rdf:_2 rdf:nodeID="A3"/>
+    <rdf:_1 rdf:nodeID="A4"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/DescriptionBasedFilter_5c6648b0">

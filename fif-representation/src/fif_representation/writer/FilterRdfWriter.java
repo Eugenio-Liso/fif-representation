@@ -99,7 +99,7 @@ public class FilterRdfWriter {
 	    modello.write(out, "N3");
 	    break;
 	}
-	case N_TRIPLE: {
+	case N_TRIPLES: {
 	    modello.write(out, "N-TRIPLE");
 	    break;
 	}

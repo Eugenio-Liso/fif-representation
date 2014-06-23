@@ -509,7 +509,7 @@ public class FilterRdfWriterTest extends TestCase {
 	    return RDFType.N3;
 	}
 	case 2: {
-	    return RDFType.N_TRIPLE;
+	    return RDFType.N_TRIPLES;
 	}
 	case 3: {
 	    return RDFType.RDF_XML;

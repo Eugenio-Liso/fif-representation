@@ -12,7 +12,7 @@ public enum RDFType {
     /**
      * Constants that can be choosed as output of the FilterRdfWriter class.
      */
-    TURTLE, RDF_XML, RDF_XML_ABBREV, N_TRIPLE, N3;
+    TURTLE, RDF_XML, RDF_XML_ABBREV, N_TRIPLES, N3;
 
     /**
      * Private Constructor
