@@ -79,7 +79,7 @@ public class METADATA {
 	    hasInterpretation = new PropertyImpl(URI, N_HAS_INTERPRETATION);
 
 	} catch (Exception e) {
-	    Log.fatal(FILTER.class.getSimpleName(), e.getMessage());
+	    Log.fatal(METADATA.class.getSimpleName(), e.getMessage());
 	}
     }
 }

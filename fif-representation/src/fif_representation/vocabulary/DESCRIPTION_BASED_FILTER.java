@@ -56,7 +56,7 @@ public class DESCRIPTION_BASED_FILTER {
 	try {
 	    hasDescription = new PropertyImpl(URI, N_HAS_DESCRIPTION);
 	} catch (Exception e) {
-	    Log.fatal(FILTER.class.getSimpleName(), e.getMessage());
+	    Log.fatal(DESCRIPTION_BASED_FILTER.class.getSimpleName(), e.getMessage());
 	}
     }
 }

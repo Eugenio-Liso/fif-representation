@@ -67,7 +67,7 @@ public class FUZZY_SET_ITEM {
 	    hasElement = new PropertyImpl(URI, N_HAS_ELEMENT);
 	    hasMembershipValue = new PropertyImpl(URI, N_HAS_MEMBERSHIP_VALUE);
 	} catch (Exception e) {
-	    Log.fatal(FILTER.class.getSimpleName(), e.getMessage());
+	    Log.fatal(FUZZY_SET_ITEM.class.getSimpleName(), e.getMessage());
 	}
     }
 }

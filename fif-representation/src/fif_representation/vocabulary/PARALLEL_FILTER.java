@@ -56,7 +56,7 @@ public class PARALLEL_FILTER {
 	try {
 	    hasAggregator = new PropertyImpl(URI, N_HAS_AGGREGATOR);
 	} catch (Exception e) {
-	    Log.fatal(FILTER.class.getSimpleName(), e.getMessage());
+	    Log.fatal(PARALLEL_FILTER.class.getSimpleName(), e.getMessage());
 	}
     }
 }

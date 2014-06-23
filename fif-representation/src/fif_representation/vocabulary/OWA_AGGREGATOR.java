@@ -56,7 +56,7 @@ public class OWA_AGGREGATOR {
 	try {
 	    hasValues = new PropertyImpl(URI, N_HAS_VALUES);
 	} catch (Exception e) {
-	    Log.fatal(FILTER.class.getSimpleName(), e.getMessage());
+	    Log.fatal(OWA_AGGREGATOR.class.getSimpleName(), e.getMessage());
 	}
     }
 }

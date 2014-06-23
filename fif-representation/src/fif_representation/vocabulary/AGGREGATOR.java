@@ -55,7 +55,7 @@ public class AGGREGATOR {
 	try {
 	    aggregator = new PropertyImpl(URI, N_AGGREGATOR);
 	} catch (Exception e) {
-	    Log.fatal(FILTER.class.getSimpleName(), e.getMessage());
+	    Log.fatal(AGGREGATOR.class.getSimpleName(), e.getMessage());
 	}
     }
 }
