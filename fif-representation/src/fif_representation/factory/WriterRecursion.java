@@ -16,7 +16,7 @@ import fif_core.Filter;
  */
 public interface WriterRecursion {
     /**
-     * Defines a way to decompose a Filter.
+     * Defines a way to decompose a Filter. The input variables cannot be null.
      * 
      * @param model
      *            The model which will hold all the relations beetween the

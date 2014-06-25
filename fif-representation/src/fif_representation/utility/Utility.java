@@ -8,7 +8,7 @@ import com.hp.hpl.jena.rdf.model.Resource;
 
 /**
  * Utility class which holds methods used by different classes in the
- * fif_rappresentation.writer package.
+ * fif_representation.writer package.
  * 
  * @author Eugenio Liso
  * @version 1.0

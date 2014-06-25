@@ -8,7 +8,7 @@ import com.hp.hpl.jena.rdf.model.impl.PropertyImpl;
 import fif_representation.utility.CONSTANTS;
 
 /**
- * Class which represents the possible relations of a AGGREGATOR.
+ * Class which represents the possible relations of an AGGREGATOR.
  * <p>
  * Those relations are specified on the RDF Graph which holds all the RDF's
  * triples.

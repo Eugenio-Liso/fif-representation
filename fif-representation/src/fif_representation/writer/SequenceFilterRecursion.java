@@ -29,6 +29,10 @@ public class SequenceFilterRecursion implements WriterRecursion {
     @Override
     public Resource decomposeFilter(Model model, Filter f)
 	    throws URISyntaxException {
+
+	assert model != null : "Il grafo delle relazioni non può essere null.";
+	assert f != null : "Il filtro da scomporre non può essere null.";
+
 	Resource filterResource = null;
 
 	// mi creo la lista dei filtri contenuti nel filtro in input
