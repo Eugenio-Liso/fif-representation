@@ -50,7 +50,8 @@ public class FilterRdfWriter {
     }
 
     /**
-     * Write a RDF Document whose type is specified by the RDFType variable. <br>
+     * Write a RDF Document whose type is specified by the RDFType variable to
+     * the location indicated by the variable out. <br>
      * The Filter which will be decomposed and the istance of a subclass of the
      * Abstract Class Writer have to be istantiated (not null).
      * <p>
