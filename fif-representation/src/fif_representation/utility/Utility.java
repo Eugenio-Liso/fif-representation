@@ -24,7 +24,7 @@ public class Utility {
     }
 
     /**
-     * Creates a Resource name which will be used by an object of the Model
+     * Creates a Resource name which will be used by an object of the Resource
      * class. The input object cannot be null.
      * 
      * @param obj
