@@ -59,9 +59,6 @@ public class ParallelFilterRecursion implements WriterRecursion {
 	Resource aggregatorResource = Utility.initializeResource(model,
 		aggregatorUri);
 
-	// aggiunta proprieta'
-	filterResource.addProperty(PARALLEL_FILTER.hasAggregator,
-		AGGREGATOR.aggregator);
 	if (!model.containsResource(aggregatorResource)) {
 	    double[] weights = agg.getWeights();
 
@@ -80,6 +77,12 @@ public class ParallelFilterRecursion implements WriterRecursion {
 
 	    aggregatorResource.addProperty(RDF.type, AGGREGATOR.aggregator);
 	}
+
+	// aggiunta proprieta'
+	// filterResource.addProperty(PARALLEL_FILTER.hasAggregator,
+	// AGGREGATOR.aggregator);
+	filterResource.addProperty(PARALLEL_FILTER.hasAggregator,
+		aggregatorResource);
 
 	// mi creo la lista dei filtri contenuti nel filtro in input
 	AbstractList<Filter> filtersList = parafil.getAllFilters();

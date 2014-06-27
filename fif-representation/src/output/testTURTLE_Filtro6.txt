@@ -47,4 +47,4 @@ fuzzy:Metadata_4802796d
 fuzzy:ParallelFilter_73a1e9a9
         a                        rdf:Bag , fuzzy:filter ;
         rdf:_1                   fuzzy:DescriptionBasedFilter_7b98f307 ;
-        fuzzy-owl:hasAggregator  fuzzy:aggregator .
+        fuzzy-owl:hasAggregator  fuzzy:OWA_71d44a3 .

@@ -12,80 +12,78 @@
     <rdf:type rdf:resource="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/filter"/>
     <fuzzy-owl:hasDescription rdf:resource="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/Metadata_55b699ef"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A0">
-    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</fuzzy-owl:hasMembershipValue>
-    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">David Eddings</fuzzy-owl:hasElement>
-  </rdf:Description>
   <rdf:Description rdf:about="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/FuzzySet_35d019a3">
-    <rdf:_4 rdf:nodeID="A1"/>
-    <rdf:_3 rdf:nodeID="A2"/>
-    <rdf:_2 rdf:nodeID="A3"/>
-    <rdf:_1 rdf:nodeID="A4"/>
+    <rdf:_4 rdf:nodeID="A0"/>
+    <rdf:_3 rdf:nodeID="A1"/>
+    <rdf:_2 rdf:nodeID="A2"/>
+    <rdf:_1 rdf:nodeID="A3"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/DescriptionBasedFilter_38d8f54a">
     <rdf:type rdf:resource="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/filter"/>
     <fuzzy-owl:hasDescription rdf:resource="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/Metadata_49e53c76"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A5">
+  <rdf:Description rdf:about="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/FuzzySet_313ac989">
+    <rdf:_4 rdf:nodeID="A4"/>
+    <rdf:_3 rdf:nodeID="A5"/>
+    <rdf:_2 rdf:nodeID="A6"/>
+    <rdf:_1 rdf:nodeID="A7"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A7">
     <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</fuzzy-owl:hasMembershipValue>
     <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Terry Brooks</fuzzy-owl:hasElement>
   </rdf:Description>
-  <rdf:Description rdf:about="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/FuzzySet_313ac989">
-    <rdf:_4 rdf:nodeID="A6"/>
-    <rdf:_3 rdf:nodeID="A0"/>
-    <rdf:_2 rdf:nodeID="A7"/>
-    <rdf:_1 rdf:nodeID="A5"/>
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A8">
-    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.3</fuzzy-owl:hasMembershipValue>
-    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">storico</fuzzy-owl:hasElement>
+  <rdf:Description rdf:nodeID="A5">
+    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</fuzzy-owl:hasMembershipValue>
+    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">David Eddings</fuzzy-owl:hasElement>
   </rdf:Description>
   <rdf:Description rdf:about="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/Metadata_55b699ef">
     <fuzzy-owl:hasFuzzySet rdf:resource="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/FuzzySet_35d019a3"/>
     <fuzzy-owl:hasInterpretation>OpenVeristicInterpretation</fuzzy-owl:hasInterpretation>
     <fuzzy-owl:hasAttribute rdf:resource="string:anno"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A9">
-    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</fuzzy-owl:hasMembershipValue>
-    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fantasy</fuzzy-owl:hasElement>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A10">
-    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</fuzzy-owl:hasMembershipValue>
-    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">romanzo gotico</fuzzy-owl:hasElement>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A11">
-    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</fuzzy-owl:hasMembershipValue>
-    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thriller</fuzzy-owl:hasElement>
+  <rdf:Description rdf:nodeID="A8">
+    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.3</fuzzy-owl:hasMembershipValue>
+    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">storico</fuzzy-owl:hasElement>
   </rdf:Description>
   <rdf:Description rdf:about="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/OWA_409bf450">
     <rdf:type rdf:resource="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/aggregator"/>
-    <fuzzy-owl:hasValues rdf:nodeID="A12"/>
+    <fuzzy-owl:hasValues rdf:nodeID="A9"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A10">
+    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7</fuzzy-owl:hasMembershipValue>
+    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">horror</fuzzy-owl:hasElement>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A11">
+    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.3</fuzzy-owl:hasMembershipValue>
+    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">steampunk</fuzzy-owl:hasElement>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A12">
+    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4</fuzzy-owl:hasMembershipValue>
+    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">romanzo distopico</fuzzy-owl:hasElement>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A13">
+    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.3</fuzzy-owl:hasMembershipValue>
+    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fantascienza</fuzzy-owl:hasElement>
   </rdf:Description>
   <rdf:Description rdf:nodeID="A2">
+    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9</fuzzy-owl:hasMembershipValue>
+    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mondadori</fuzzy-owl:hasElement>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
     <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</fuzzy-owl:hasMembershipValue>
     <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">salani</fuzzy-owl:hasElement>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A4">
-    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4</fuzzy-owl:hasMembershipValue>
-    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TEA</fuzzy-owl:hasElement>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A7">
-    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8</fuzzy-owl:hasMembershipValue>
-    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anne Rice</fuzzy-owl:hasElement>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A1">
+  <rdf:Description rdf:nodeID="A0">
     <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</fuzzy-owl:hasMembershipValue>
     <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urania</fuzzy-owl:hasElement>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A12">
-    <rdf:_3 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</rdf:_3>
-    <rdf:_2 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.25</rdf:_2>
-    <rdf:_1 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.25</rdf:_1>
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
-  </rdf:Description>
   <rdf:Description rdf:nodeID="A6">
+    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8</fuzzy-owl:hasMembershipValue>
+    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anne Rice</fuzzy-owl:hasElement>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
     <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</fuzzy-owl:hasMembershipValue>
     <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J.K Rowling</fuzzy-owl:hasElement>
   </rdf:Description>
@@ -93,44 +91,46 @@
     <rdf:type rdf:resource="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/filter"/>
     <fuzzy-owl:hasDescription rdf:resource="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/Metadata_3023df74"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A13">
-    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7</fuzzy-owl:hasMembershipValue>
-    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">horror</fuzzy-owl:hasElement>
+  <rdf:Description rdf:nodeID="A9">
+    <rdf:_3 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</rdf:_3>
+    <rdf:_2 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.25</rdf:_2>
+    <rdf:_1 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.25</rdf:_1>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="A14">
-    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4</fuzzy-owl:hasMembershipValue>
-    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">romanzo distopico</fuzzy-owl:hasElement>
+    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</fuzzy-owl:hasMembershipValue>
+    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fantasy</fuzzy-owl:hasElement>
   </rdf:Description>
   <rdf:Description rdf:nodeID="A15">
-    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.3</fuzzy-owl:hasMembershipValue>
-    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">steampunk</fuzzy-owl:hasElement>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A3">
-    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9</fuzzy-owl:hasMembershipValue>
-    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mondadori</fuzzy-owl:hasElement>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A16">
-    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.3</fuzzy-owl:hasMembershipValue>
-    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fantascienza</fuzzy-owl:hasElement>
+    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</fuzzy-owl:hasMembershipValue>
+    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thriller</fuzzy-owl:hasElement>
   </rdf:Description>
   <rdf:Description rdf:about="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/FuzzySet_351d00c0">
-    <rdf:_8 rdf:nodeID="A16"/>
-    <rdf:_7 rdf:nodeID="A10"/>
-    <rdf:_6 rdf:nodeID="A14"/>
-    <rdf:_5 rdf:nodeID="A11"/>
-    <rdf:_4 rdf:nodeID="A15"/>
-    <rdf:_3 rdf:nodeID="A9"/>
-    <rdf:_2 rdf:nodeID="A13"/>
+    <rdf:_8 rdf:nodeID="A13"/>
+    <rdf:_7 rdf:nodeID="A16"/>
+    <rdf:_6 rdf:nodeID="A12"/>
+    <rdf:_5 rdf:nodeID="A15"/>
+    <rdf:_4 rdf:nodeID="A11"/>
+    <rdf:_3 rdf:nodeID="A14"/>
+    <rdf:_2 rdf:nodeID="A10"/>
     <rdf:_1 rdf:nodeID="A8"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A16">
+    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</fuzzy-owl:hasMembershipValue>
+    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">romanzo gotico</fuzzy-owl:hasElement>
   </rdf:Description>
   <rdf:Description rdf:about="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/ParallelFilter_3349e9bb">
     <rdf:_3 rdf:resource="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/DescriptionBasedFilter_145f66e3"/>
     <rdf:_2 rdf:resource="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/DescriptionBasedFilter_2a3b5b47"/>
     <rdf:_1 rdf:resource="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/DescriptionBasedFilter_38d8f54a"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
-    <fuzzy-owl:hasAggregator rdf:resource="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/aggregator"/>
+    <fuzzy-owl:hasAggregator rdf:resource="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/OWA_409bf450"/>
     <rdf:type rdf:resource="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/filter"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4</fuzzy-owl:hasMembershipValue>
+    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TEA</fuzzy-owl:hasElement>
   </rdf:Description>
   <rdf:Description rdf:about="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/Metadata_3023df74">
     <fuzzy-owl:hasFuzzySet rdf:resource="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/FuzzySet_313ac989"/>

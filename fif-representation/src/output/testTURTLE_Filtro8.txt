@@ -7,7 +7,7 @@ fuzzy:ParallelFilter_74235045
         a                        rdf:Bag , fuzzy:filter ;
         rdf:_1                   fuzzy:DescriptionBasedFilter_2d3379b4 ;
         rdf:_2                   fuzzy:DescriptionBasedFilter_6771beb3 ;
-        fuzzy-owl:hasAggregator  fuzzy:aggregator .
+        fuzzy-owl:hasAggregator  fuzzy:OWA_618b19ad .
 
 fuzzy:DescriptionBasedFilter_2d3379b4
         a                         fuzzy:filter ;

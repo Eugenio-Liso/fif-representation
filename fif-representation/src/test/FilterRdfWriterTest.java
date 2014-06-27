@@ -46,7 +46,6 @@ public class FilterRdfWriterTest extends TestCase {
     private Filter[] filterTest;
     private RDFType[] rdfTypes;
 
-    
     protected void setUp() throws Exception {
 	test = new FilterRdfWriter();
 	filterTest = populateFilter();
@@ -720,9 +719,13 @@ public class FilterRdfWriterTest extends TestCase {
 				} else if (prop
 					.equals(PARALLEL_FILTER.hasAggregator)) {
 
-				    Resource newRes = object.asResource();
-				    assertTrue(newRes
-					    .equals(AGGREGATOR.aggregator));
+				    // Resource newRes = object.asResource();
+				    // assertTrue(newRes
+				    // .equals(AGGREGATOR.aggregator));
+
+				    // controllo che l'oggetto della relazione
+				    // sia una risorsa (mi riferisco all'OWA)
+				    assertTrue(object.isResource());
 
 				} else {
 

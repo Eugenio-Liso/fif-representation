@@ -46,7 +46,7 @@ fuzzy:DescriptionBasedFilter_22555ebf
 fuzzy:ParallelFilter_34e9fd99
         a                        rdf:Bag , fuzzy:filter ;
         rdf:_1                   fuzzy:DescriptionBasedFilter_54d9d12d ;
-        fuzzy-owl:hasAggregator  fuzzy:aggregator .
+        fuzzy-owl:hasAggregator  fuzzy:OWA_3c41ed1d .
 
 fuzzy:OWA_292b08d6  a        fuzzy:aggregator ;
         fuzzy-owl:hasValues  [ a       rdf:Seq ;
@@ -67,4 +67,4 @@ fuzzy:SequenceFilter_c730b35
 fuzzy:ParallelFilter_206a70ef
         a                        rdf:Bag , fuzzy:filter ;
         rdf:_1                   fuzzy:DescriptionBasedFilter_22555ebf ;
-        fuzzy-owl:hasAggregator  fuzzy:aggregator .
+        fuzzy-owl:hasAggregator  fuzzy:OWA_292b08d6 .

@@ -3,14 +3,14 @@
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 @prefix fuzzy: <http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/> .
 
+fuzzy:DescriptionBasedFilter_22ff4249
+        a                         fuzzy:filter ;
+        fuzzy-owl:hasDescription  fuzzy:Metadata_2d1ef81a .
+
 fuzzy:Metadata_5b12b668
         fuzzy-owl:hasAttribute       <string:anno> ;
         fuzzy-owl:hasFuzzySet        fuzzy:FuzzySet_4c402120 ;
         fuzzy-owl:hasInterpretation  "ClosedVeristicInterpretation" .
-
-fuzzy:DescriptionBasedFilter_22ff4249
-        a                         fuzzy:filter ;
-        fuzzy-owl:hasDescription  fuzzy:Metadata_2d1ef81a .
 
 fuzzy:DescriptionBasedFilter_327514f
         a                         fuzzy:filter ;
