@@ -3,53 +3,41 @@
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 @prefix fuzzy: <http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/> .
 
-fuzzy:ParallelFilter_74235045
-        a                        rdf:Bag , fuzzy:filter ;
-        rdf:_1                   fuzzy:DescriptionBasedFilter_2d3379b4 ;
-        rdf:_2                   fuzzy:DescriptionBasedFilter_6771beb3 ;
-        fuzzy-owl:hasAggregator  fuzzy:OWA_618b19ad .
-
-fuzzy:DescriptionBasedFilter_2d3379b4
-        a                         fuzzy:filter ;
-        fuzzy-owl:hasDescription  fuzzy:Metadata_30c15d8b .
-
-fuzzy:Metadata_51399530
-        fuzzy-owl:hasAttribute       <string:anno> ;
-        fuzzy-owl:hasFuzzySet        fuzzy:FuzzySet_6b2ea799 ;
-        fuzzy-owl:hasInterpretation  "ClosedVeristicInterpretation" .
-
-fuzzy:Metadata_30c15d8b
-        fuzzy-owl:hasAttribute       <string:genere> ;
-        fuzzy-owl:hasFuzzySet        fuzzy:FuzzySet_5e0e82ae ;
-        fuzzy-owl:hasInterpretation  "ClosedVeristicInterpretation" .
-
-fuzzy:FuzzySet_6b2ea799
+fuzzy:FuzzySet_2b71e916
         a       rdf:Bag ;
-        rdf:_1  [ fuzzy-owl:hasElement          "1984"^^xsd:string ;
-                  fuzzy-owl:hasMembershipValue  "0.6"^^xsd:double
-                ] ;
-        rdf:_2  [ fuzzy-owl:hasElement          "1983"^^xsd:string ;
-                  fuzzy-owl:hasMembershipValue  "0.4"^^xsd:double
-                ] ;
-        rdf:_3  [ fuzzy-owl:hasElement          "1982"^^xsd:string ;
-                  fuzzy-owl:hasMembershipValue  "0.3"^^xsd:double
-                ] ;
-        rdf:_4  [ fuzzy-owl:hasElement          "1981"^^xsd:string ;
-                  fuzzy-owl:hasMembershipValue  "0.2"^^xsd:double
-                ] ;
-        rdf:_5  [ fuzzy-owl:hasElement          "1980"^^xsd:string ;
+        rdf:_1  [ fuzzy-owl:hasElement          "1980"^^xsd:string ;
                   fuzzy-owl:hasMembershipValue  "0.2"^^xsd:double
                 ] .
 
-fuzzy:OWA_618b19ad  a        fuzzy:aggregator ;
+fuzzy:FuzzySet_51399530
+        a       rdf:Bag .
+
+fuzzy:OWA_30c15d8b  a        fuzzy:aggregator ;
         fuzzy-owl:hasValues  [ a       rdf:Seq ;
                                rdf:_1  "0.5"^^xsd:double ;
                                rdf:_2  "0.5"^^xsd:double
                              ] .
 
-fuzzy:DescriptionBasedFilter_6771beb3
-        a                         fuzzy:filter ;
-        fuzzy-owl:hasDescription  fuzzy:Metadata_51399530 .
+fuzzy:ParallelFilter_2d3379b4
+        a                        rdf:Bag , fuzzy:filter ;
+        rdf:_1                   fuzzy:DescriptionBasedFilter_5e0e82ae ;
+        rdf:_2                   fuzzy:DescriptionBasedFilter_6b2ea799 ;
+        fuzzy-owl:hasAggregator  fuzzy:OWA_30c15d8b .
 
-fuzzy:FuzzySet_5e0e82ae
-        a       rdf:Bag .
+fuzzy:Metadata_411f53a0
+        fuzzy-owl:hasAttribute       <string:anno> ;
+        fuzzy-owl:hasFuzzySet        fuzzy:FuzzySet_2b71e916 ;
+        fuzzy-owl:hasInterpretation  "ClosedVeristicInterpretation" .
+
+fuzzy:DescriptionBasedFilter_6b2ea799
+        a                         fuzzy:filter ;
+        fuzzy-owl:hasDescription  fuzzy:Metadata_411f53a0 .
+
+fuzzy:Metadata_6771beb3
+        fuzzy-owl:hasAttribute       <string:genere> ;
+        fuzzy-owl:hasFuzzySet        fuzzy:FuzzySet_51399530 ;
+        fuzzy-owl:hasInterpretation  "ClosedVeristicInterpretation" .
+
+fuzzy:DescriptionBasedFilter_5e0e82ae
+        a                         fuzzy:filter ;
+        fuzzy-owl:hasDescription  fuzzy:Metadata_6771beb3 .

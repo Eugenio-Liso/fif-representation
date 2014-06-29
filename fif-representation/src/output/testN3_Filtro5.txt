@@ -3,21 +3,21 @@
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 @prefix fuzzy: <http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/> .
 
-fuzzy:DescriptionBasedFilter_235834f2
-        a                         fuzzy:filter ;
-        fuzzy-owl:hasDescription  fuzzy:Metadata_5656be13 .
-
-fuzzy:SequenceFilter_3270d194
+fuzzy:SequenceFilter_5656be13
         a       rdf:Seq , fuzzy:filter ;
-        rdf:_1  fuzzy:DescriptionBasedFilter_235834f2 .
+        rdf:_1  fuzzy:DescriptionBasedFilter_4218d6a3 .
 
-fuzzy:Metadata_5656be13
-        fuzzy-owl:hasAttribute       <string:genere> ;
-        fuzzy-owl:hasFuzzySet        fuzzy:FuzzySet_4218d6a3 ;
-        fuzzy-owl:hasInterpretation  "ClosedVeristicInterpretation" .
-
-fuzzy:FuzzySet_4218d6a3
+fuzzy:FuzzySet_14cd1699
         a       rdf:Bag ;
         rdf:_1  [ fuzzy-owl:hasElement          "horror"^^xsd:string ;
                   fuzzy-owl:hasMembershipValue  "0.7"^^xsd:double
                 ] .
+
+fuzzy:Metadata_76505305
+        fuzzy-owl:hasAttribute       <string:genere> ;
+        fuzzy-owl:hasFuzzySet        fuzzy:FuzzySet_14cd1699 ;
+        fuzzy-owl:hasInterpretation  "PossibilisticInterpretation" .
+
+fuzzy:DescriptionBasedFilter_4218d6a3
+        a                         fuzzy:filter ;
+        fuzzy-owl:hasDescription  fuzzy:Metadata_76505305 .

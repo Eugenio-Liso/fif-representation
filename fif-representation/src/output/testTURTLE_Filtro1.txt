@@ -3,26 +3,12 @@
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 @prefix fuzzy: <http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/> .
 
-fuzzy:Metadata_21a947fe
-        fuzzy-owl:hasAttribute       <string:anno> ;
-        fuzzy-owl:hasFuzzySet        fuzzy:FuzzySet_5606c0b ;
-        fuzzy-owl:hasInterpretation  "ClosedVeristicInterpretation" .
-
-fuzzy:DescriptionBasedFilter_77f99a05
-        a                         fuzzy:filter ;
-        fuzzy-owl:hasDescription  fuzzy:Metadata_63440df3 .
-
-fuzzy:SequenceFilter_5bfbf16f
+fuzzy:SequenceFilter_12cdcf4
         a       rdf:Seq , fuzzy:filter ;
-        rdf:_1  fuzzy:DescriptionBasedFilter_77f99a05 ;
-        rdf:_2  fuzzy:DescriptionBasedFilter_25359ed8 .
+        rdf:_1  fuzzy:DescriptionBasedFilter_3aeaafa6 ;
+        rdf:_2  fuzzy:DescriptionBasedFilter_5606c0b .
 
-fuzzy:Metadata_63440df3
-        fuzzy-owl:hasAttribute       <string:genere> ;
-        fuzzy-owl:hasFuzzySet        fuzzy:FuzzySet_e720b71 ;
-        fuzzy-owl:hasInterpretation  "ClosedVeristicInterpretation" .
-
-fuzzy:FuzzySet_5606c0b
+fuzzy:FuzzySet_1445d7f
         a       rdf:Bag ;
         rdf:_1  [ fuzzy-owl:hasElement          "1984"^^xsd:string ;
                   fuzzy-owl:hasMembershipValue  "0.6"^^xsd:double
@@ -40,7 +26,25 @@ fuzzy:FuzzySet_5606c0b
                   fuzzy-owl:hasMembershipValue  "0.2"^^xsd:double
                 ] .
 
-fuzzy:FuzzySet_e720b71
+fuzzy:Metadata_80ec1f8
+        fuzzy-owl:hasAttribute       <string:anno> ;
+        fuzzy-owl:hasFuzzySet        fuzzy:FuzzySet_1445d7f ;
+        fuzzy-owl:hasInterpretation  "ClosedVeristicInterpretation" .
+
+fuzzy:Metadata_76a3e297
+        fuzzy-owl:hasAttribute       <string:genere> ;
+        fuzzy-owl:hasFuzzySet        fuzzy:FuzzySet_491cc5c9 ;
+        fuzzy-owl:hasInterpretation  "ClosedVeristicInterpretation" .
+
+fuzzy:DescriptionBasedFilter_3aeaafa6
+        a                         fuzzy:filter ;
+        fuzzy-owl:hasDescription  fuzzy:Metadata_76a3e297 .
+
+fuzzy:DescriptionBasedFilter_5606c0b
+        a                         fuzzy:filter ;
+        fuzzy-owl:hasDescription  fuzzy:Metadata_80ec1f8 .
+
+fuzzy:FuzzySet_491cc5c9
         a       rdf:Bag ;
         rdf:_1  [ fuzzy-owl:hasElement          "horror"^^xsd:string ;
                   fuzzy-owl:hasMembershipValue  "0.7"^^xsd:double
@@ -48,7 +52,3 @@ fuzzy:FuzzySet_e720b71
         rdf:_2  [ fuzzy-owl:hasElement          "dark romance"^^xsd:string ;
                   fuzzy-owl:hasMembershipValue  "0.2"^^xsd:double
                 ] .
-
-fuzzy:DescriptionBasedFilter_25359ed8
-        a                         fuzzy:filter ;
-        fuzzy-owl:hasDescription  fuzzy:Metadata_21a947fe .

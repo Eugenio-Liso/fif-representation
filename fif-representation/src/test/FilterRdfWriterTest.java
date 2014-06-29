@@ -27,6 +27,7 @@ import fif_core.Metadata;
 import fif_core.OWA;
 import fif_core.OpenVeristicInterpretation;
 import fif_core.ParallelFilter;
+import fif_core.PossibilisticInterpretation;
 import fif_core.SequenceFilter;
 import fif_core.interfaces.Aggregator;
 import fif_representation.utility.CONSTANTS;
@@ -92,6 +93,8 @@ public class FilterRdfWriterTest extends TestCase {
 	    return istantiateTenthFilter();
 	case 10:
 	    return istantiateEleventhFilter();
+	case 11:
+	    return istantiateTwelfthFilter();
 	default:
 	    return null;
 	}
@@ -235,7 +238,7 @@ public class FilterRdfWriterTest extends TestCase {
 	Metadata m = new Metadata(att1, fs1,
 		ClosedVeristicInterpretation.getinstance());
 	Metadata m2 = new Metadata(att2, fs2,
-		ClosedVeristicInterpretation.getinstance());
+		OpenVeristicInterpretation.getinstance());
 
 	// mi creo un Description Based Filter
 	Filter f1 = new DescriptionBasedFilter(m);
@@ -259,7 +262,7 @@ public class FilterRdfWriterTest extends TestCase {
 
 	// creazione metadati
 	Metadata m = new Metadata(att1, fs1,
-		ClosedVeristicInterpretation.getinstance());
+		PossibilisticInterpretation.getinstance());
 
 	// mi creo un Description Based Filter
 	Filter f1 = new DescriptionBasedFilter(m);
@@ -303,7 +306,7 @@ public class FilterRdfWriterTest extends TestCase {
 	// mi creo un attributo
 
 	Attribute att1 = new Attribute("string:genere");
-	Attribute att2 = new Attribute("string:attore");
+	Attribute att2 = new Attribute("string:anno");
 
 	FuzzySet fs1 = new FuzzySet();
 	// setto dei valori associati al primo fuzzy set
@@ -331,7 +334,7 @@ public class FilterRdfWriterTest extends TestCase {
 	return s1;
     }
 
-    // 2 ATTRIBUTI, 1 FUZZY SET > 1, 1 FUZZY SET VUOTO, 2 METADATA, 2 DBF, 1
+    // 2 ATTRIBUTI, 1 FUZZY SET = 1, 1 FUZZY SET VUOTO, 2 METADATA, 2 DBF, 1
     // PARALLEL FILTER (f1, f2), 1 AGGREGATOR CON 2 PESI
     private Filter istantiateEightFilter() {
 	Attribute att1 = new Attribute("string:genere");
@@ -342,10 +345,6 @@ public class FilterRdfWriterTest extends TestCase {
 	FuzzySet fs2 = new FuzzySet();
 	// setto dei valori associati al secondo fuzzy set
 	fs2.setValue("1980", 0.2);
-	fs2.setValue("1981", 0.2);
-	fs2.setValue("1982", 0.3);
-	fs2.setValue("1983", 0.4);
-	fs2.setValue("1984", 0.6);
 
 	// creazione metadati
 	Metadata m = new Metadata(att1, fs1,
@@ -366,8 +365,7 @@ public class FilterRdfWriterTest extends TestCase {
     }
 
     // 2 ATTRIBUTI, 1 FS VUOTO, 1 FS > 1, 2 METADATA, 2 DBF, 3
-    // PARALLEL FILTER F3[(f1, f2)], 2 AGGREGATOR, UNO CON 4 PESI PER IL FILTRO
-    // COMPOSTO, L'ALTRO CON 2 PESO PER UN FILTRO SINGOLO
+    // PARALLEL FILTER F3[(f1, f2)], 2 AGGREGATOR
     private Filter istantiateNinthFilter() {
 	Attribute att1 = new Attribute("string:genere");
 	Attribute att2 = new Attribute("string:anno");
@@ -392,9 +390,9 @@ public class FilterRdfWriterTest extends TestCase {
 	Filter f1 = new DescriptionBasedFilter(m);
 	Filter f2 = new DescriptionBasedFilter(m2);
 
-	Aggregator owa1 = new OWA(0.5, 0.5);
+	Aggregator owa1 = new OWA(1.0);
 
-	Aggregator owa2 = new OWA(0.7, 0.1, 0.1, 0.1);
+	Aggregator owa2 = new OWA(0.7, 0.3);
 
 	// creazione parallel filter
 	Filter s1 = new ParallelFilter(owa1, f1);
@@ -432,8 +430,8 @@ public class FilterRdfWriterTest extends TestCase {
 	Filter f1 = new DescriptionBasedFilter(m);
 	Filter f2 = new DescriptionBasedFilter(m2);
 
-	Aggregator owa1 = new OWA(0.5, 0.5);
-	Aggregator owa2 = new OWA(0.8, 0.2);
+	Aggregator owa1 = new OWA(1.0);
+	Aggregator owa2 = new OWA(1.0);
 
 	// creazione parallel filter
 	Filter s1 = new ParallelFilter(owa1, f1);
@@ -476,8 +474,32 @@ public class FilterRdfWriterTest extends TestCase {
 	return s1;
     }
 
+    // 1 Attributo, 1 FS vuoto, 1 Metadata, 1 DBF, 1 OWA con 1 peso, 1 PARALLEL
+    private Filter istantiateTwelfthFilter() {
+	// mi creo un attributo
+
+	Attribute att1 = new Attribute("string:genere");
+
+	FuzzySet fs1 = new FuzzySet();
+
+	fs1.setValue("horror", 0.7);
+
+	// creazione metadati
+	Metadata m = new Metadata(att1, fs1,
+		ClosedVeristicInterpretation.getinstance());
+
+	// mi creo un Description Based Filter
+	Filter f1 = new DescriptionBasedFilter(m);
+
+	Aggregator agg = new OWA(1.0);
+	// creazione sequence filter
+	Filter s1 = new ParallelFilter(agg, f1);
+
+	return s1;
+    }
+
     private Filter[] populateFilter() {
-	Filter[] test = new Filter[11];
+	Filter[] test = new Filter[12];
 	for (int i = 0; i < test.length; i++) {
 	    test[i] = istantiate(i);
 	}

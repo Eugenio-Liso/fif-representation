@@ -1,0 +1,26 @@
+@prefix fuzzy-owl: <http://informatica.di.uniba.it/itps/labinf/fuzzy/ontology/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix fuzzy: <http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/> .
+
+fuzzy:ParallelFilter_5542c4ed
+        a                        rdf:Bag , fuzzy:filter ;
+        rdf:_1                   fuzzy:DescriptionBasedFilter_6150c3ec ;
+        fuzzy-owl:hasAggregator  fuzzy:OWA_1573f9fc .
+
+fuzzy:OWA_1573f9fc  a        fuzzy:aggregator ;
+        fuzzy-owl:hasValues  [ a       rdf:Seq ;
+                               rdf:_1  "1.0"^^xsd:double
+                             ] .
+
+fuzzy:DescriptionBasedFilter_6150c3ec
+        a                         fuzzy:filter ;
+        fuzzy-owl:hasDescription  fuzzy:Metadata_44c03695 .
+
+fuzzy:FuzzySet_7e6f74c
+        a       rdf:Bag .
+
+fuzzy:Metadata_44c03695
+        fuzzy-owl:hasAttribute       <string:genere> ;
+        fuzzy-owl:hasFuzzySet        fuzzy:FuzzySet_7e6f74c ;
+        fuzzy-owl:hasInterpretation  "ClosedVeristicInterpretation" .
