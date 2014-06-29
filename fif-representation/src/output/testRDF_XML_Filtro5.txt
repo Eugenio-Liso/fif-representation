@@ -11,14 +11,14 @@
     <rdf:type rdf:resource="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/filter"/>
     <fuzzy-owl:hasDescription rdf:resource="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/Metadata_76505305"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A0">
-    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7</fuzzy-owl:hasMembershipValue>
-    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">horror</fuzzy-owl:hasElement>
-  </rdf:Description>
   <rdf:Description rdf:about="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/Metadata_76505305">
     <fuzzy-owl:hasFuzzySet rdf:resource="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/FuzzySet_14cd1699"/>
     <fuzzy-owl:hasInterpretation>PossibilisticInterpretation</fuzzy-owl:hasInterpretation>
     <fuzzy-owl:hasAttribute rdf:resource="string:genere"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7</fuzzy-owl:hasMembershipValue>
+    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">horror</fuzzy-owl:hasElement>
   </rdf:Description>
   <rdf:Description rdf:about="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/SequenceFilter_5656be13">
     <rdf:_1 rdf:resource="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/DescriptionBasedFilter_4218d6a3"/>

@@ -61,7 +61,7 @@
               </rdf:Bag>
             </fuzzy-owl:hasFuzzySet>
             <fuzzy-owl:hasInterpretation>OpenVeristicInterpretation</fuzzy-owl:hasInterpretation>
-            <fuzzy-owl:hasAttribute rdf:resource="string:autore"/>
+            <fuzzy-owl:hasAttribute rdf:resource="string:genere"/>
           </rdf:Description>
         </fuzzy-owl:hasDescription>
       </fuzzy:filter>
@@ -99,7 +99,7 @@
               </rdf:Bag>
             </fuzzy-owl:hasFuzzySet>
             <fuzzy-owl:hasInterpretation>OpenVeristicInterpretation</fuzzy-owl:hasInterpretation>
-            <fuzzy-owl:hasAttribute rdf:resource="string:anno"/>
+            <fuzzy-owl:hasAttribute rdf:resource="string:editore"/>
           </rdf:Description>
         </fuzzy-owl:hasDescription>
       </fuzzy:filter>
@@ -137,7 +137,7 @@
               </rdf:Bag>
             </fuzzy-owl:hasFuzzySet>
             <fuzzy-owl:hasInterpretation>OpenVeristicInterpretation</fuzzy-owl:hasInterpretation>
-            <fuzzy-owl:hasAttribute rdf:resource="string:versione"/>
+            <fuzzy-owl:hasAttribute rdf:resource="string:autore"/>
           </rdf:Description>
         </fuzzy-owl:hasDescription>
       </fuzzy:filter>

@@ -20,14 +20,14 @@ fuzzy:FuzzySet_5fe94a96
                   fuzzy-owl:hasMembershipValue  "0.2"^^xsd:double
                 ] .
 
+fuzzy:DescriptionBasedFilter_515c6049
+        a                         fuzzy:filter ;
+        fuzzy-owl:hasDescription  fuzzy:Metadata_639c2c1d .
+
 fuzzy:Metadata_639c2c1d
         fuzzy-owl:hasAttribute       <string:anno> ;
         fuzzy-owl:hasFuzzySet        fuzzy:FuzzySet_5fe94a96 ;
         fuzzy-owl:hasInterpretation  "ClosedVeristicInterpretation" .
-
-fuzzy:DescriptionBasedFilter_515c6049
-        a                         fuzzy:filter ;
-        fuzzy-owl:hasDescription  fuzzy:Metadata_639c2c1d .
 
 fuzzy:SequenceFilter_41d477ed
         a       rdf:Seq , fuzzy:filter ;

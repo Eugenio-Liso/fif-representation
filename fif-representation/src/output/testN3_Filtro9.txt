@@ -18,16 +18,16 @@ fuzzy:ParallelFilter_5bf0d49
         rdf:_1                   fuzzy:DescriptionBasedFilter_776aec5c ;
         fuzzy-owl:hasAggregator  fuzzy:OWA_5b7a5baa .
 
+fuzzy:Metadata_408d971b
+        fuzzy-owl:hasAttribute       <string:anno> ;
+        fuzzy-owl:hasFuzzySet        fuzzy:FuzzySet_6c6cb480 ;
+        fuzzy-owl:hasInterpretation  "ClosedVeristicInterpretation" .
+
 fuzzy:OWA_175c2241  a        fuzzy:aggregator ;
         fuzzy-owl:hasValues  [ a       rdf:Seq ;
                                rdf:_1  "0.7"^^xsd:double ;
                                rdf:_2  "0.3"^^xsd:double
                              ] .
-
-fuzzy:Metadata_408d971b
-        fuzzy-owl:hasAttribute       <string:anno> ;
-        fuzzy-owl:hasFuzzySet        fuzzy:FuzzySet_6c6cb480 ;
-        fuzzy-owl:hasInterpretation  "ClosedVeristicInterpretation" .
 
 fuzzy:Metadata_1d296da
         fuzzy-owl:hasAttribute       <string:genere> ;

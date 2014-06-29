@@ -57,6 +57,7 @@ public class FilterRdfWriterTest extends TestCase {
     protected void tearDown() throws Exception {
 	test = null;
 	filterTest = null;
+	rdfTypes = null;
 	super.tearDown();
     }
 
@@ -141,9 +142,9 @@ public class FilterRdfWriterTest extends TestCase {
     // AGGREGATOR, 1 PARALLEL FILTER
     private Filter istantiateSecondFilter() {
 
-	Attribute attribute1 = new Attribute("string:autore");
-	Attribute attribute2 = new Attribute("string:anno");
-	Attribute attribute3 = new Attribute("string:versione");
+	Attribute attribute1 = new Attribute("string:genere");
+	Attribute attribute2 = new Attribute("string:editore");
+	Attribute attribute3 = new Attribute("string:autore");
 
 	FuzzySet fs_utente1 = new FuzzySet();
 	FuzzySet fs2_utente1 = new FuzzySet();
@@ -365,7 +366,7 @@ public class FilterRdfWriterTest extends TestCase {
     }
 
     // 2 ATTRIBUTI, 1 FS VUOTO, 1 FS > 1, 2 METADATA, 2 DBF, 3
-    // PARALLEL FILTER F3[(f1, f2)], 2 AGGREGATOR
+    // PARALLEL FILTER F3[(f1, f2)], 2 AGGREGATOR DI CUI UNO IN COMUNE
     private Filter istantiateNinthFilter() {
 	Attribute att1 = new Attribute("string:genere");
 	Attribute att2 = new Attribute("string:anno");
@@ -404,8 +405,7 @@ public class FilterRdfWriterTest extends TestCase {
     }
 
     // 2 ATTRIBUTI, 1 FS VUOTO, 1 FS > 1, 2 METADATA, 2 DBF, 2 PARALLEL FILTER,
-    // 2 OWA PER 2 PARALLEL FILTER CON PESI DIVERSI, UN SEQUENCE FILTER
-    // F3[f1,f2]
+    // 2 OWA, 1 SEQUENCE FILTER
     private Filter istantiateTenthFilter() {
 	Attribute att1 = new Attribute("string:genere");
 	Attribute att2 = new Attribute("string:anno");

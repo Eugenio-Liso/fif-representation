@@ -14,6 +14,14 @@
   <rdf:Description rdf:about="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/FuzzySet_6f1de4c7">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.6</fuzzy-owl:hasMembershipValue>
+    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1984</fuzzy-owl:hasElement>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4</fuzzy-owl:hasMembershipValue>
+    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1983</fuzzy-owl:hasElement>
+  </rdf:Description>
   <rdf:Description rdf:about="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/DescriptionBasedFilter_459e9125">
     <rdf:type rdf:resource="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/filter"/>
     <fuzzy-owl:hasDescription rdf:resource="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/Metadata_128d2484"/>
@@ -24,38 +32,30 @@
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
     <rdf:type rdf:resource="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/filter"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A2">
-    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.3</fuzzy-owl:hasMembershipValue>
-    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1982</fuzzy-owl:hasElement>
+  <rdf:Description rdf:nodeID="A0">
+    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.2</fuzzy-owl:hasMembershipValue>
+    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1980</fuzzy-owl:hasElement>
   </rdf:Description>
   <rdf:Description rdf:about="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/Metadata_128d2484">
     <fuzzy-owl:hasFuzzySet rdf:resource="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/FuzzySet_7cc0cdad"/>
     <fuzzy-owl:hasInterpretation>ClosedVeristicInterpretation</fuzzy-owl:hasInterpretation>
     <fuzzy-owl:hasAttribute rdf:resource="string:anno"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A1">
-    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.2</fuzzy-owl:hasMembershipValue>
-    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1981</fuzzy-owl:hasElement>
-  </rdf:Description>
   <rdf:Description rdf:about="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/DescriptionBasedFilter_2a4fb17b">
     <rdf:type rdf:resource="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/filter"/>
     <fuzzy-owl:hasDescription rdf:resource="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/Metadata_5c6648b0"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A4">
-    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.6</fuzzy-owl:hasMembershipValue>
-    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1984</fuzzy-owl:hasElement>
+  <rdf:Description rdf:nodeID="A2">
+    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.3</fuzzy-owl:hasMembershipValue>
+    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1982</fuzzy-owl:hasElement>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A3">
-    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4</fuzzy-owl:hasMembershipValue>
-    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1983</fuzzy-owl:hasElement>
+  <rdf:Description rdf:nodeID="A1">
+    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.2</fuzzy-owl:hasMembershipValue>
+    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1981</fuzzy-owl:hasElement>
   </rdf:Description>
   <rdf:Description rdf:about="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/Metadata_5c6648b0">
     <fuzzy-owl:hasFuzzySet rdf:resource="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/FuzzySet_6f1de4c7"/>
     <fuzzy-owl:hasInterpretation>ClosedVeristicInterpretation</fuzzy-owl:hasInterpretation>
     <fuzzy-owl:hasAttribute rdf:resource="string:genere"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A0">
-    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.2</fuzzy-owl:hasMembershipValue>
-    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1980</fuzzy-owl:hasElement>
   </rdf:Description>
 </rdf:RDF>

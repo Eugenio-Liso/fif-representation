@@ -4,12 +4,12 @@
 @prefix fuzzy: <http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/> .
 
 fuzzy:Metadata_2a3b5b47
-        fuzzy-owl:hasAttribute       <string:autore> ;
+        fuzzy-owl:hasAttribute       <string:genere> ;
         fuzzy-owl:hasFuzzySet        fuzzy:FuzzySet_55b699ef ;
         fuzzy-owl:hasInterpretation  "OpenVeristicInterpretation" .
 
 fuzzy:Metadata_4562e04d
-        fuzzy-owl:hasAttribute       <string:versione> ;
+        fuzzy-owl:hasAttribute       <string:autore> ;
         fuzzy-owl:hasFuzzySet        fuzzy:FuzzySet_2a65fe7c ;
         fuzzy-owl:hasInterpretation  "OpenVeristicInterpretation" .
 
@@ -40,6 +40,10 @@ fuzzy:FuzzySet_55b699ef
                   fuzzy-owl:hasMembershipValue  "0.3"^^xsd:double
                 ] .
 
+fuzzy:DescriptionBasedFilter_313ac989
+        a                         fuzzy:filter ;
+        fuzzy-owl:hasDescription  fuzzy:Metadata_4562e04d .
+
 fuzzy:DescriptionBasedFilter_351d00c0
         a                         fuzzy:filter ;
         fuzzy-owl:hasDescription  fuzzy:Metadata_2a3b5b47 .
@@ -50,10 +54,6 @@ fuzzy:OWA_49e53c76  a        fuzzy:aggregator ;
                                rdf:_2  "0.25"^^xsd:double ;
                                rdf:_3  "0.5"^^xsd:double
                              ] .
-
-fuzzy:DescriptionBasedFilter_313ac989
-        a                         fuzzy:filter ;
-        fuzzy-owl:hasDescription  fuzzy:Metadata_4562e04d .
 
 fuzzy:ParallelFilter_38d8f54a
         a                        rdf:Bag , fuzzy:filter ;
@@ -97,6 +97,6 @@ fuzzy:DescriptionBasedFilter_35d019a3
         fuzzy-owl:hasDescription  fuzzy:Metadata_689604d9 .
 
 fuzzy:Metadata_689604d9
-        fuzzy-owl:hasAttribute       <string:anno> ;
+        fuzzy-owl:hasAttribute       <string:editore> ;
         fuzzy-owl:hasFuzzySet        fuzzy:FuzzySet_18078bef ;
         fuzzy-owl:hasInterpretation  "OpenVeristicInterpretation" .

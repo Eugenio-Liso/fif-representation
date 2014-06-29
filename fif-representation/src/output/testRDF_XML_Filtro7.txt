@@ -26,10 +26,6 @@
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
     <rdf:type rdf:resource="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/filter"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A0">
-    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7</fuzzy-owl:hasMembershipValue>
-    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">horror</fuzzy-owl:hasElement>
-  </rdf:Description>
   <rdf:Description rdf:nodeID="A1">
     <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.2</fuzzy-owl:hasMembershipValue>
     <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1980</fuzzy-owl:hasElement>
@@ -38,6 +34,10 @@
     <fuzzy-owl:hasFuzzySet rdf:resource="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/FuzzySet_5fe94a96"/>
     <fuzzy-owl:hasInterpretation>ClosedVeristicInterpretation</fuzzy-owl:hasInterpretation>
     <fuzzy-owl:hasAttribute rdf:resource="string:anno"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7</fuzzy-owl:hasMembershipValue>
+    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">horror</fuzzy-owl:hasElement>
   </rdf:Description>
   <rdf:Description rdf:about="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/FuzzySet_5fe94a96">
     <rdf:_1 rdf:nodeID="A1"/>

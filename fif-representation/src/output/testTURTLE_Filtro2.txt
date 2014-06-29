@@ -4,12 +4,12 @@
 @prefix fuzzy: <http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/> .
 
 fuzzy:Metadata_2a3b5b47
-        fuzzy-owl:hasAttribute       <string:autore> ;
+        fuzzy-owl:hasAttribute       <string:genere> ;
         fuzzy-owl:hasFuzzySet        fuzzy:FuzzySet_55b699ef ;
         fuzzy-owl:hasInterpretation  "OpenVeristicInterpretation" .
 
 fuzzy:Metadata_4562e04d
-        fuzzy-owl:hasAttribute       <string:versione> ;
+        fuzzy-owl:hasAttribute       <string:autore> ;
         fuzzy-owl:hasFuzzySet        fuzzy:FuzzySet_2a65fe7c ;
         fuzzy-owl:hasInterpretation  "OpenVeristicInterpretation" .
 
@@ -97,6 +97,6 @@ fuzzy:DescriptionBasedFilter_35d019a3
         fuzzy-owl:hasDescription  fuzzy:Metadata_689604d9 .
 
 fuzzy:Metadata_689604d9
-        fuzzy-owl:hasAttribute       <string:anno> ;
+        fuzzy-owl:hasAttribute       <string:editore> ;
         fuzzy-owl:hasFuzzySet        fuzzy:FuzzySet_18078bef ;
         fuzzy-owl:hasInterpretation  "OpenVeristicInterpretation" .

@@ -15,6 +15,18 @@
     <fuzzy-owl:hasAttribute rdf:resource="string:anno"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="A0">
+    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.2</fuzzy-owl:hasMembershipValue>
+    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1980</fuzzy-owl:hasElement>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/FuzzySet_6c6cb480">
+    <rdf:_5 rdf:nodeID="A0"/>
+    <rdf:_4 rdf:nodeID="A1"/>
+    <rdf:_3 rdf:nodeID="A2"/>
+    <rdf:_2 rdf:nodeID="A3"/>
+    <rdf:_1 rdf:nodeID="A4"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
     <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.3</fuzzy-owl:hasMembershipValue>
     <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1982</fuzzy-owl:hasElement>
   </rdf:Description>
@@ -22,21 +34,9 @@
     <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.2</fuzzy-owl:hasMembershipValue>
     <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1981</fuzzy-owl:hasElement>
   </rdf:Description>
-  <rdf:Description rdf:about="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/FuzzySet_6c6cb480">
-    <rdf:_5 rdf:nodeID="A2"/>
-    <rdf:_4 rdf:nodeID="A1"/>
-    <rdf:_3 rdf:nodeID="A0"/>
-    <rdf:_2 rdf:nodeID="A3"/>
-    <rdf:_1 rdf:nodeID="A4"/>
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/OWA_5b7a5baa">
     <rdf:type rdf:resource="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/aggregator"/>
     <fuzzy-owl:hasValues rdf:nodeID="A5"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A2">
-    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.2</fuzzy-owl:hasMembershipValue>
-    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1980</fuzzy-owl:hasElement>
   </rdf:Description>
   <rdf:Description rdf:about="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/DescriptionBasedFilter_557caf28">
     <rdf:type rdf:resource="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/filter"/>
@@ -60,6 +60,14 @@
   <rdf:Description rdf:about="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/FuzzySet_7c7a06ec">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A5">
+    <rdf:_1 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</rdf:_1>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.6</fuzzy-owl:hasMembershipValue>
+    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1984</fuzzy-owl:hasElement>
+  </rdf:Description>
   <rdf:Description rdf:about="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/ParallelFilter_4afcd809">
     <rdf:_2 rdf:resource="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/ParallelFilter_75d4a5c2"/>
     <rdf:_1 rdf:resource="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/ParallelFilter_5bf0d49"/>
@@ -72,20 +80,12 @@
     <rdf:_1 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7</rdf:_1>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A3">
-    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4</fuzzy-owl:hasMembershipValue>
-    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1983</fuzzy-owl:hasElement>
-  </rdf:Description>
   <rdf:Description rdf:about="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/OWA_175c2241">
     <rdf:type rdf:resource="http://informatica.di.uniba.it/itps/labinf/fuzzy/resource/aggregator"/>
     <fuzzy-owl:hasValues rdf:nodeID="A6"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A5">
-    <rdf:_1 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</rdf:_1>
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A4">
-    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.6</fuzzy-owl:hasMembershipValue>
-    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1984</fuzzy-owl:hasElement>
+  <rdf:Description rdf:nodeID="A3">
+    <fuzzy-owl:hasMembershipValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4</fuzzy-owl:hasMembershipValue>
+    <fuzzy-owl:hasElement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1983</fuzzy-owl:hasElement>
   </rdf:Description>
 </rdf:RDF>
