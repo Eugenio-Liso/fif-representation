@@ -18,7 +18,10 @@ fuzzy:DescriptionBasedFilter_6150c3ec
         fuzzy-owl:hasDescription  fuzzy:Metadata_44c03695 .
 
 fuzzy:FuzzySet_7e6f74c
-        a       rdf:Bag .
+        a       rdf:Bag ;
+        rdf:_1  [ fuzzy-owl:hasElement          "horror"^^xsd:string ;
+                  fuzzy-owl:hasMembershipValue  "0.7"^^xsd:double
+                ] .
 
 fuzzy:Metadata_44c03695
         fuzzy-owl:hasAttribute       <string:genere> ;

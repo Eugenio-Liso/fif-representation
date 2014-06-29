@@ -33,11 +33,11 @@ fuzzy:DescriptionBasedFilter_6b2ea799
         a                         fuzzy:filter ;
         fuzzy-owl:hasDescription  fuzzy:Metadata_411f53a0 .
 
+fuzzy:DescriptionBasedFilter_5e0e82ae
+        a                         fuzzy:filter ;
+        fuzzy-owl:hasDescription  fuzzy:Metadata_6771beb3 .
+
 fuzzy:Metadata_6771beb3
         fuzzy-owl:hasAttribute       <string:genere> ;
         fuzzy-owl:hasFuzzySet        fuzzy:FuzzySet_51399530 ;
         fuzzy-owl:hasInterpretation  "ClosedVeristicInterpretation" .
-
-fuzzy:DescriptionBasedFilter_5e0e82ae
-        a                         fuzzy:filter ;
-        fuzzy-owl:hasDescription  fuzzy:Metadata_6771beb3 .
