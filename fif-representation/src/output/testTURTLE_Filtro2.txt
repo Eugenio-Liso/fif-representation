@@ -40,6 +40,10 @@ fuzzy:FuzzySet_55b699ef
                   fuzzy-owl:hasMembershipValue  "0.3"^^xsd:double
                 ] .
 
+fuzzy:DescriptionBasedFilter_313ac989
+        a                         fuzzy:filter ;
+        fuzzy-owl:hasDescription  fuzzy:Metadata_4562e04d .
+
 fuzzy:DescriptionBasedFilter_351d00c0
         a                         fuzzy:filter ;
         fuzzy-owl:hasDescription  fuzzy:Metadata_2a3b5b47 .
@@ -50,10 +54,6 @@ fuzzy:OWA_49e53c76  a        fuzzy:aggregator ;
                                rdf:_2  "0.25"^^xsd:double ;
                                rdf:_3  "0.5"^^xsd:double
                              ] .
-
-fuzzy:DescriptionBasedFilter_313ac989
-        a                         fuzzy:filter ;
-        fuzzy-owl:hasDescription  fuzzy:Metadata_4562e04d .
 
 fuzzy:ParallelFilter_38d8f54a
         a                        rdf:Bag , fuzzy:filter ;
